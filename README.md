@@ -5,7 +5,9 @@ The solution: we create a backup of the origin ajax request , we compare the bac
 
 
 var notificationsArray = jQuery.parseJSON(json);
+
 var testingNotificationsArray = jQuery.parseJSON(json);
+
     for(var key in testingNotificationsArray) {
         if(testingNotificationsArray.hasOwnProperty(key)) {
             for (var i=0; i<testingNotificationsArray[key].length; i++) {
