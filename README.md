@@ -1,7 +1,9 @@
 # ajax Request Issue
 
 var notificationsArray = jQuery.parseJSON(json);
+
 var testingNotificationsArray = jQuery.parseJSON(json);
+
     for(var key in testingNotificationsArray) {
         if(testingNotificationsArray.hasOwnProperty(key)) {
             for (var i=0; i<testingNotificationsArray[key].length; i++) {
