@@ -1,5 +1,3 @@
-# ajax Request Issue
-
 var notificationsArray = jQuery.parseJSON(json);
 var testingNotificationsArray = jQuery.parseJSON(json);
     for(var key in testingNotificationsArray) {
